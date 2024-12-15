@@ -105,6 +105,7 @@ It delivers a responsive, interactive, and efficient way to monitor user activit
     cd backend
     npm install
     npm install express mongoose cors body-parser
+    npm install react-calendar-heatmap
 
 
   - Configure TailwindCSS
