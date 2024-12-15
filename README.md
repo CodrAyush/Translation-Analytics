@@ -112,7 +112,7 @@ It delivers a responsive, interactive, and efficient way to monitor user activit
     npm install tailwindcss postcss autoprefixer
     npx tailwindcss init
 
-  3. Firebase Configuration Setup
+  3. **Firebase Configuration Setup**
    - 1.create project on firebase console
        ```bash
        npm install firebase
@@ -128,7 +128,7 @@ It delivers a responsive, interactive, and efficient way to monitor user activit
     appId: "YOUR_FIREBASE_APP_ID",
     };
 ```
-4. Starting project
+4. **Starting project**
    1.Starting backend(Mongodb):after setting up mongodb on local directory
    ```bash
    #in cmd
