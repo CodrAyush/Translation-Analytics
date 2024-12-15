@@ -93,18 +93,65 @@ It delivers a responsive, interactive, and efficient way to monitor user activit
    git clone https://github.com/yourusername/translation-analytics-dashboard.git
    cd translation-analytics-dashboard
 2. **Install Dependencies**
-   a)backend
+   - Backend
      ```bash
-     cd backend
+     cd ..frontend
      npm install
-     npm start
-  b)frontend
+     npm install chart.js react-chartjs-2 firebase
+
+
+  - Frontend
+    ```bash
+    cd backend
+    npm install
+    npm install express mongoose cors body-parser
+
+
+  - Configure TailwindCSS
+    ```bash
+    npm install tailwindcss postcss autoprefixer
+    npx tailwindcss init
+
+  3. Firebase Configuration Setup
+   - 1.create project on firebase console
+       ```bash
+       npm install firebase
+
+  - 2.configure /frontend/src/firebaseConfig.js with your credentials
   ```bash
-       cd frontend
-      npm install
-      npm start
+  const firebaseConfig = {
+     apiKey: "YOUR_FIREBASE_API_KEY",
+    authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
+    projectId: "YOUR_FIREBASE_PROJECT_ID",
+    storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_FIREBASE_MESSAGING_SENDER_ID",
+    appId: "YOUR_FIREBASE_APP_ID",
+    };
+```
+4. Starting project
+   1.Starting backend(Mongodb):after setting up mongodb on local directory
+   ```bash
+   #in cmd
+   mongosh
+   ```
+   ```bash
+   #/backend
+   npm start
+   ```
+   2.Starting frontend
+   ```bash
+   #/frontend
+   npm start
+   ```
+   
 
+     
 
+    
+ 
+    
+   
+  
 
 
 
