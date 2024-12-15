@@ -143,6 +143,13 @@ It delivers a responsive, interactive, and efficient way to monitor user activit
    #/frontend
    npm start
    ```
+
+## Deployment Instructions
+- 1.**Backend Development**
+   - Use services like Heroku, AWS EC2, or Render to deploy the Node.js server.
+- 2.**Frontend Development**
+   - Use Vercel, Netlify, or GitHub Pages for React app deployment.
+   
    
 
      
